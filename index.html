@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Phone DialPad</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="contactBook">
+            <div class="h2"><i class="fas fa-book"></i>
+                <h2>Phone book</h2><i class="far fa-arrow-alt-circle-right"></i></i></i>
+            </div>
+            <ul id="ul"></ul>
+        </div>
+
+        <header>
+            <span class="time">1:22 PM</span>
+            <div class="ic">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-battery-half"></i>
+            </div>
+        </header>
+        <section>
+            <div class="search">
+                <input type="search" name="" id="search" placeholder="search contacts">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="display">
+                <input type="tel" name="" id="display">
+                <i class="fas fa-backspace"></i>
+            </div>
+        </section>
+        <main>
+            <div class="numbers">
+                <div class="number" data-nr="1">1<span>AB</span>
+                    <div class="wrap">
+                        <div class="factor num">1</div>
+                        <div class="factor">A</div>
+                        <div class="factor">B</div>
+                    </div>
+                </div>
+                <div class="number" data-nr="2">2<span>CD</span>
+                    <div class="wrap">
+                        <div class="factor num">2</div>
+                        <div class="factor">C</div>
+                        <div class="factor">D</div>
+
+                    </div>
+                </div>
+
+                <div class="number" data-nr="3">3<span>EF</span>
+                    <div class="wrap">
+                        <div class="factor num">3</div>
+                        <div class="factor">E</div>
+                        <div class="factor">F</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="4">4<span>GH</span>
+                    <div class="wrap">
+                        <div class="factor num">4</div>
+                        <div class="factor">G</div>
+                        <div class="factor">H</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="5">5<span>IJ</span>
+                    <div class="wrap">
+                        <div class="factor num">5</div>
+                        <div class="factor">I</div>
+                        <div class="factor">J</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="6">6<span>KL</span>
+                    <div class="wrap">
+                        <div class="factor num">6</div>
+                        <div class="factor">K</div>
+                        <div class="factor">L</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="7">7<span>MN</span>
+                    <div class="wrap">
+                        <div class="factor num">7</div>
+                        <div class="factor">M</div>
+                        <div class="factor">N</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="8">8<span>OP</span>
+                    <div class="wrap">
+                        <div class="factor num">8</div>
+                        <div class="factor">O</div>
+                        <div class="factor">P</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="9">9<span>RS</span>
+                    <div class="wrap">
+                        <div class="factor num">9</div>
+                        <div class="factor">R</div>
+                        <div class="factor">S</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="*">*<span>TU</span>
+                    <div class="wrap">
+                        <div class="factor">*</div>
+                        <div class="factor">T</div>
+                        <div class="factor">U</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="0">0<span>WV</span>
+                    <div class="wrap">
+                        <div class="factor num">0</div>
+                        <div class="factor">W</div>
+                        <div class="factor">V</div>
+
+                    </div>
+                </div>
+                <div class="number" data-nr="#">#<span>XYZ</span>
+                    <div class="wrap">
+                        <div class="factor">#</div>
+                        <div class="factor">X</div>
+                        <div class="factor">Y</div>
+                        <div class="factor">Z</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="call">
+                <a href="tel:573219230">
+                    <div>
+                        <i class="fas fa-phone-alt"></i>Call
+                    </div>
+                </a>
+            </div>
+        </main>
+        <footer>
+            <div class="icon" id="name"><i class="fas fa-user-plus"></i>Add Name</div>
+            <div class="icon" id="nr"><i class="fas fa-phone-alt"></i>Add Nr</div>
+            <div class="icon" id="contacts"><i class="fas fa-user-friends"></i>Contacts</div>
+            <div class="icon"><i class="fas fa-history"></i>Memory</div>
+        </footer>
+    </div>
+    <script src="./script.js">
+
+    </script>
+</body>
+
+</html>
