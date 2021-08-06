@@ -19,6 +19,8 @@ body {
     position: relative;
     width: 286px;
     height: 570px;
+    max-width: 400px;
+    max-height: 812px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -36,6 +38,8 @@ body {
     top: 0;
     width: 286px;
     height: 570px;
+    max-width: 400px;
+    max-height: 812px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -168,6 +172,7 @@ main {
 }
 
 .number {
+    cursor: pointer;
     position: relative;
     align-self: center;
     justify-self: center;
@@ -229,8 +234,12 @@ main {
 }
 
 .call a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     text-decoration: none;
+    width: 100%;
 }
 
 .call i {
@@ -259,6 +268,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .icon:hover {
@@ -267,4 +277,12 @@ footer {
 
 .icon i {
     font-size: 1rem;
+}
+@media (min-width:297px){
+.container,.contactBook {
+    
+    width: 100vw;
+    height: 100vh;
+   
+}
 }
